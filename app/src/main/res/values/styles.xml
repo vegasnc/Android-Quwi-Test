@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SignInEdit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/signin_input_margin</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/signin_edit_background</item>
+        <item name="android:padding">@dimen/signin_input_padding</item>
+    </style>
+
+    <style name="SignInBtn" parent="SignInEdit">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_signin_btn</item>
+        <item name="android:padding">@dimen/signin_btn_padding</item>
+        <item name="android:textSize">@dimen/signin_btn_font_size</item>
+    </style>
+
+</resources>

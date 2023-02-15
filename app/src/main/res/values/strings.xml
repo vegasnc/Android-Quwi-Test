@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quwi</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="signin">Login</string>
+    <string name="chat_label">Messages</string>
+    <string name="logout">Log out</string>
+    <string name="really_logout">Do you want to really finish?</string>
+    <string name="ok_str">OK</string>
+    <string name="cancel_str">Cancel</string>
+</resources>

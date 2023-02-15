@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="signin_padding">50dp</dimen>
+    <dimen name="signin_input_margin">23dp</dimen>
+    <dimen name="signin_input_padding">8dp</dimen>
+    <dimen name="signin_btn_padding">12dp</dimen>
+    <dimen name="chatitem_margin_left">10dp</dimen>
+    <dimen name="chatitem_margin_top">5dp</dimen>
+    <dimen name="chatitem_padding">2dp</dimen>
+
+    <!--  font size  -->
+    <dimen name="signin_btn_font_size">20sp</dimen>
+
+</resources>

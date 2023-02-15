@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="@dimen/signin_padding"
+    android:paddingRight="@dimen/signin_padding"
+    android:background="@color/signin_back"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/prog_loding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/signin_padding"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/edt_email"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+    <EditText
+        android:id="@+id/edt_email"
+        style="@style/SignInEdit"
+        android:layout_above="@+id/edt_password"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true"
+        android:hint="@string/email_hint"/>
+
+    <EditText
+        android:id="@+id/edt_password"
+        style="@style/SignInEdit"
+        android:layout_centerInParent="true"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:hint="@string/password_hint"/>
+
+    <TextView
+        android:id="@+id/btn_signin"
+        style="@style/SignInBtn"
+        android:padding="@dimen/signin_input_padding"
+        android:layout_below="@id/edt_password"
+        android:text="@string/signin" />
+
+</RelativeLayout>
